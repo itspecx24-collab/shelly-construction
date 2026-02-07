@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Shelly Construction</title>
+    <meta name="description" content="View our portfolio of completed construction projects including residential, commercial, and renovation work.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Shelly <span>Construction</span></h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link active">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Projects</h1>
+            <p>Explore our portfolio of exceptional construction work</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="renovation">Renovation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Gallery -->
+    <section class="projects-gallery">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-item" data-category="residential">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Modern Villa">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3>Modern Villa</h3>
+                                    <p class="project-category">Residential</p>
+                                    <p class="project-description">Luxury contemporary villa with panoramic views and sustainable features.</p>
+                                    <button class="view-project" data-project="1">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-item" data-category="commercial">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Office Complex">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3>Office Complex</h3>
+                                    <p class="project-category">Commercial</p>
+                                    <p class="project-description">Modern office building with advanced infrastructure and green design.</p>
+                                    <button class="view-project" data-project="2">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-item" data-category="renovation">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Home Renovation">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3>Home Renovation</h3>
+                                    <p class="project-category">Renovation</p>
+                                    <p class="project-description">Complete home transformation with modern amenities and energy efficiency.</p>
+                                    <button class="view-project" data-project="3">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-item" data-category="residential">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Luxury Apartment">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3>Luxury Apartment</h3>
+                                    <p class="project-category">Residential</p>
+                                    <p class="project-description">High-end apartment complex with premium finishes and amenities.</p>
+                                    <button class="view-project" data-project="4">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-item" data-category="commercial">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Retail Center">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3>Retail Center</h3>
+                                    <p class="project-category">Commercial</p>
+                                    <p class="project-description">Modern shopping center with sustainable design and customer-focused layout.</p>
+                                    <button class="view-project" data-project="5">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-item" data-category="renovation">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Kitchen Remodel">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3>Kitchen Remodel</h3>
+                                    <p class="project-category">Renovation</p>
+                                    <p class="project-description">Complete kitchen renovation with custom cabinetry and modern appliances.</p>
+                                    <button class="view-project" data-project="6">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-item" data-category="residential">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1600566753376-12c8ac737b99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Beach House">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3>Beach House</h3>
+                                    <p class="project-category">Residential</p>
+                                    <p class="project-description">Coastal beach house with hurricane-resistant construction and ocean views.</p>
+                                    <button class="view-project" data-project="7">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-item" data-category="commercial">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Warehouse">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3>Industrial Warehouse</h3>
+                                    <p class="project-category">Commercial</p>
+                                    <p class="project-description">Large-scale warehouse with modern logistics and storage solutions.</p>
+                                    <button class="view-project" data-project="8">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="project-item" data-category="renovation">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Bathroom Renovation">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3>Bathroom Renovation</h3>
+                                    <p class="project-category">Renovation</p>
+                                    <p class="project-description">Luxury bathroom renovation with spa-like features and modern design.</p>
+                                    <button class="view-project" data-project="9">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="">
+                </div>
+                <div class="modal-info">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalCategory"></p>
+                    <p id="modalDescription"></p>
+                    <div class="project-details">
+                        <div class="detail-item">
+                            <strong>Duration:</strong>
+                            <span id="modalDuration"></span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Location:</strong>
+                            <span id="modalLocation"></span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Services:</strong>
+                            <span id="modalServices"></span>
+                        </div>
+                    </div>
+                    <div class="modal-actions">
+                        <a href="contact.html" class="btn btn-primary">Get Similar Project</a>
+                        <button class="btn btn-secondary close-modal-btn">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="stat-number">500+</h3>
+                    <p class="stat-label">Projects Completed</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">15+</h3>
+                    <p class="stat-label">Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">50+</h3>
+                    <p class="stat-label">Team Members</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">98%</h3>
+                    <p class="stat-label">Client Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let us bring your vision to life with our expert construction services.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Get Free Quote</a>
+                    <a href="tel:+15551234567" class="btn btn-secondary">Call Us Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Shelly Construction</h3>
+                    <p>Building dreams into reality with quality craftsmanship and exceptional service.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">General Construction</a></li>
+                        <li><a href="services.html">Plumbing & Electrical</a></li>
+                        <li><a href="services.html">Roofing & Tiling</a></li>
+                        <li><a href="contact.html">Free Consultation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info-list">
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@shellyconstruction.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Construction Blvd, Building City</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Shelly Construction. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
